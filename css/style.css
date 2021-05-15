@@ -11,11 +11,16 @@ body {
   left: 20px;
   z-index: 3;
   border-radius: 10px;
-  background: linear-gradient(145deg, #ffffff, #e6e6e6);
-  box-shadow: 5px 5px 20px #c2c2c2, -5px -5px 20px #ffffff;
+  background: linear-gradient(145deg, #ffffff, #cacaca);
+  box-shadow: 3px 3px 15px #c2c2c2, -3px -3px 15px #ffffff;
 }
 .burger-icon img {
   width: 100%;
+}
+
+.burger-icon:hover {
+  background: linear-gradient(145deg, #ffffff, #bababa);
+  box-shadow: 8px 8px 25px #c2c2c2, -8px -8px 25px #ffffff;
 }
 
 .menu-container-fluid {
