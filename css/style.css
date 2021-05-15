@@ -2,9 +2,9 @@ body {
   margin: 0;
   background: #ffffff;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffffff, #14ffeb52);
+  background: -webkit-linear-gradient(to right, #ffffff, #6dfff36d);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffffff, #14ffeb52);
+  background: linear-gradient(to right, #ffffff, #6dfff36d);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
