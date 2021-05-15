@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+
+.burger-icon {
+  padding: 10px;
+  width: 45px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 3;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 5px 5px 20px #c2c2c2, -5px -5px 20px #ffffff;
+}
+.burger-icon img {
+  width: 100%;
+}
+
+.menu-container-fluid {
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.menu-container-fluid .menu-container {
+  /* border: 1px solid red; */
+  height: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.menu-container-fluid .menu-container .menu-row {
+  /* border: 1px solid greenyellow; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-container-fluid .menu-container .menu-row nav {
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-container-fluid .menu-container .menu-row nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.menu-container-fluid .menu-container .menu-row nav ul a {
+  text-decoration: none;
+  margin: 0px 25px;
+  color: #0d7377;
+  padding-bottom: 15px;
+}
+.menu-container-fluid .menu-container .menu-row nav ul a:hover {
+  border-bottom: 2px solid #ff0000;
+  color: #ff0000;
+  filter: drop-shadow(1px 1px 10px #14ffec);
+  transition: 0.4s;
+}
+
+/*# sourceMappingURL=style.css.map */
