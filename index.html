@@ -29,7 +29,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/tablet-768.css">
-    <link rel="stylesheet" href="css/monitor-1400.css">
+    <link rel="stylesheet" href="css/celular-576.css">
 
     <!--ESTILO INTERNO-->
     <style>
@@ -50,13 +50,13 @@
 
                 <nav class="menu-oculto menu-activo">
                     <ul>
-                        <li> <a class="link" href="#inicio"> Inicio </a> </li>
-                        <li> <a class="link" href="#skills"> Skills </a> </li>
-                        <li> <a class="link" href="#proyectos"> Proyectos </a> </li>
+                        <li> <a id="enlace" class="link" href="#inicio"> Inicio </a> </li>
+                        <li> <a id="enlace" class="link" href="#skills"> Skills </a> </li>
+                        <li> <a id="enlace" class="link" href="#proyectos"> Proyectos </a> </li>
                     </ul>
                     <ul class="menu-contacto">
                         <li>
-                            <a class="link" href="#contacto"> Contacto </a> </li>
+                            <a id="enlace" class="link" href="#contacto"> Contacto </a> </li>
                         </li>
                     </ul>
                 </nav>
@@ -72,8 +72,35 @@
 
 
 
+    <!-- ----------------------------------------------------------------------- -->
+    <!-- ----------------- JAVASCRIPT PARA EL BURGUER BUTTON---- -->
+    <!-- ----------------------------------------------------------------------- -->
 
+    <script>
+        // SELECTORES --- seleccionamos a la class que contiene al nav y al boton hamburgueza.
+        document.querySelector('.menu-activo');
+        document.querySelector('.burger-icon');
 
+        // VARIABLES CONSTANTES
+        const menu = document.querySelector('.menu-activo');
+        const burgerButton = document.querySelector('.burger-icon');
+
+        // DEJO UN MENSAJE CON LAS VARIABLES
+        console.log(menu);
+        console.log(burgerButton);
+
+        // EVENTO SOBRE EL BURGER-BUTTON
+        burgerButton.addEventListener('click', desplegar);
+
+        // FUNCIÓN para que DESPLIEGUE Y SE OCULTE EL MENU
+        function desplegar() {
+            if (menu.classList.contains('menu-oculto')) {
+                menu.classList.remove('menu-oculto');
+            } else {
+                menu.classList.add('menu-oculto');
+            }
+        }
+    </script>
 
 
 
