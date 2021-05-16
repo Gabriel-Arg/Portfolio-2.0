@@ -180,7 +180,7 @@ body {
   color: #af0404;
 }
 .header-fluid .header-container .header-row .header-foto {
-  margin-top: 20px;
+  margin-top: 5px;
   width: 400px;
   height: 450px;
   cursor: pointer;
@@ -227,6 +227,10 @@ body {
 }
 .header-fluid .header-container .header-row .header-foto:hover::before {
   opacity: 1;
+}
+
+.skills-fluid {
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
