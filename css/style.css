@@ -1,12 +1,6 @@
 body {
   margin: 0;
-  background: #ffffff;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #ffffff, #6dfff36d);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #ffffff, #6dfff36d);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-repeat: no-repeat;
+  background: #e0e0e0;
 }
 
 .burger-icon {
@@ -18,9 +12,9 @@ body {
   bottom: 20px;
   left: 20px;
   z-index: 3;
-  border-radius: 10px;
-  background: linear-gradient(145deg, #ffffff, #dcdcdc);
-  box-shadow: 3px 3px 15px #c2c2c2, -3px -3px 15px #ffffff;
+  border-radius: 8px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
 }
 .burger-icon img {
   width: 100%;
@@ -69,9 +63,8 @@ body {
   padding-bottom: 15px;
 }
 .menu-container-fluid .menu-container .menu-row nav ul a:hover {
-  border-bottom: 2px solid #ff0000;
   color: #ff0000;
-  filter: drop-shadow(1px 1px 10px #14ffec);
+  filter: drop-shadow(1px 1px 5px #ffffff);
   transition: 0.4s;
 }
 
@@ -83,9 +76,9 @@ body {
   bottom: 20px;
   left: 75px;
   z-index: 1;
-  border-radius: 10px;
-  background: linear-gradient(145deg, #ffffff, #dcdcdc);
-  box-shadow: 3px 3px 15px #c2c2c2, -3px -3px 15px #ffffff;
+  border-radius: 8px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
 }
 .contacto-button img {
   width: 100%;

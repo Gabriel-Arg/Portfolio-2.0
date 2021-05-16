@@ -2,13 +2,7 @@
 
 body {
     margin: 0;
-    background: #ffffff;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #ffffff, #6dfff36d);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #ffffff, #6dfff36d);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-repeat: no-repeat;
+    background: #e0e0e0;
 }
 
 // ---------------------------------------------------
@@ -25,10 +19,10 @@ body {
     left: 20px;
     z-index: 3;
 
-    border-radius: 10px;
-    background: linear-gradient(145deg, #ffffff, #dcdcdc);
-    box-shadow: 3px 3px 15px #c2c2c2,
-    -3px -3px 15px #ffffff;
+    // ---------NEUMORFISMO-----------------
+    border-radius: 8px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
 
     img {
         width: 100%;
@@ -78,7 +72,6 @@ body {
                         padding-bottom: 15px;
                     }
                     a:hover {
-                        border-bottom: 2px solid $color-rojoclaro;
                         color: $color-rojoclaro;
                         filter: $color-efectohover;
                         transition: 0.4s;
@@ -102,10 +95,10 @@ body {
     left: 75px;
     z-index: 1;
 
-    border-radius: 10px;
-    background: linear-gradient(145deg, #ffffff, #dcdcdc);
-    box-shadow: 3px 3px 15px #c2c2c2,
-    -3px -3px 15px #ffffff;
+    // ---------NEUMORFISMO-----------------
+    border-radius: 8px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
 
     img {
         width: 100%;
