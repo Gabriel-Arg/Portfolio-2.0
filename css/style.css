@@ -147,4 +147,33 @@ body {
   filter: drop-shadow(1px 1px 5px #ffffff);
 }
 
+.header-fluid .header-container .header-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-fluid .header-container .header-row .header-title {
+  width: auto;
+}
+.header-fluid .header-container .header-row .header-title h4 {
+  margin: 0;
+  font-family: "Aldrich", sans-serif;
+  color: #212121;
+  font-size: 30px;
+}
+.header-fluid .header-container .header-row .header-title h1 {
+  margin: 0;
+  font-family: "Aldrich", sans-serif;
+  color: #212121;
+  font-size: 80px;
+}
+.header-fluid .header-container .header-row .header-foto {
+  width: 300px;
+}
+.header-fluid .header-container .header-row .header-foto img {
+  width: 100%;
+  margin: 20px 0px 0px 0px;
+}
+
 /*# sourceMappingURL=style.css.map */
