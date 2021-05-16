@@ -161,19 +161,72 @@ body {
   font-family: "Aldrich", sans-serif;
   color: #212121;
   font-size: 30px;
+  text-align: end;
 }
 .header-fluid .header-container .header-row .header-title h1 {
   margin: 0;
   font-family: "Aldrich", sans-serif;
-  color: #212121;
+  color: #0d7377;
   font-size: 80px;
+  font-weight: bold;
+}
+.header-fluid .header-container .header-row .header-title p {
+  font-weight: bold;
+  font-family: "Aldrich", sans-serif;
+  color: #212121;
+  text-align: end;
+}
+.header-fluid .header-container .header-row .header-title p:hover {
+  color: #af0404;
 }
 .header-fluid .header-container .header-row .header-foto {
-  width: 300px;
+  margin-top: 20px;
+  width: 400px;
+  height: 450px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  transition: background 0.8s;
+  background: url(../img/modal-foto.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-.header-fluid .header-container .header-row .header-foto img {
-  width: 100%;
-  margin: 20px 0px 0px 0px;
+.header-fluid .header-container .header-row .header-foto span {
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  font-family: "Aldrich", sans-serif;
+  color: #af0404;
+  font-weight: bold;
+  font-size: 23px;
+  opacity: 0;
+  transition: all 0.8s;
+  transform: translateY(20px);
+}
+.header-fluid .header-container .header-row .header-foto:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+.header-fluid .header-container .header-row .header-foto:hover {
+  background-size: 800px;
+  background-position: left top;
+  filter: grayscale(100%);
+}
+.header-fluid .header-container .header-row .header-foto::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  bottom: 8px;
+  right: 8px;
+  border-radius: 15px;
+  border: 1px solid #f6f6f6;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+.header-fluid .header-container .header-row .header-foto:hover::before {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

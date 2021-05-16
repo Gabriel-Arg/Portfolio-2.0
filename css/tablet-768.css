@@ -16,8 +16,21 @@
     .header-fluid .header-container .header-row .header-title h1 {
         font-size: 40px;
     }
+
+    /* ------------------------------------------------------- */
+    /* -----TARJETA DEL HEADER----- */
+    /* ------------------------------------------------------- */
     .header-fluid .header-container .header-row .header-foto {
+        margin-top: 20px;
         width: 250px;
+        height: 280px;
+    }
+    .header-fluid .header-container .header-row .header-foto:hover {
+        background-size: 500px;
+        background-position: left top;
+    }
+    .header-fluid .header-container .header-row .header-foto span {
+        font-size: 14px;
     }
 
 }
