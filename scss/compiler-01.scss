@@ -40,6 +40,7 @@ body {
 }
 
 .menu-container-fluid {
+    margin-top: 20px;
     height: 50px;
     position: sticky;
     top: 0;
@@ -85,4 +86,32 @@ body {
             }
         }
     }
+}
+
+// ---------------------------------------------------
+//       BOTON CONTACTO
+// ---------------------------------------------------
+
+.contacto-button {
+    width: 50px;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    left: 75px;
+    z-index: 1;
+
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffffff, #cacaca);
+    box-shadow: 3px 3px 15px #c2c2c2,
+    -3px -3px 15px #ffffff;
+
+    img {
+        width: 100%;
+    }
+}
+.contacto-button:hover {
+    background: linear-gradient(145deg, #ffffff, #bababa);
+    box-shadow: 8px 8px 25px #c2c2c2,
+    -8px -8px 25px #ffffff;
 }
