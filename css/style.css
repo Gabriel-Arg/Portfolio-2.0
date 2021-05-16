@@ -35,7 +35,7 @@ body {
 .menu-container-fluid .menu-container {
   /* border: 1px solid red; */
   height: 50px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Averia Serif Libre";
   font-weight: bold;
 }
 .menu-container-fluid .menu-container .menu-row {
@@ -158,25 +158,29 @@ body {
 }
 .header-fluid .header-container .header-row .header-title h4 {
   margin: 0;
-  font-family: "Aldrich", sans-serif;
+  font-family: "Averia Serif Libre", cursive;
   color: #212121;
-  font-size: 30px;
+  font-size: 35px;
   text-align: end;
+  font-style: oblique;
 }
 .header-fluid .header-container .header-row .header-title h1 {
   margin: 0;
-  font-family: "Aldrich", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #0d7377;
   font-size: 80px;
   font-weight: bold;
 }
-.header-fluid .header-container .header-row .header-title p {
+.header-fluid .header-container .header-row .header-title h3 {
   font-weight: bold;
-  font-family: "Aldrich", sans-serif;
+  font-style: oblique;
+  font-size: 20px;
+  font-family: "Averia Serif Libre", cursive;
   color: #212121;
   text-align: end;
+  cursor: pointer;
 }
-.header-fluid .header-container .header-row .header-title p:hover {
+.header-fluid .header-container .header-row .header-title h3:hover {
   color: #af0404;
 }
 .header-fluid .header-container .header-row .header-foto {
@@ -196,10 +200,10 @@ body {
   position: absolute;
   top: 50px;
   left: 25px;
-  font-family: "Aldrich", sans-serif;
-  color: #af0404;
+  font-family: "Averia Serif Libre", cursive;
+  color: #212121;
+  font-size: 27px;
   font-weight: bold;
-  font-size: 23px;
   opacity: 0;
   transition: all 0.8s;
   transform: translateY(20px);

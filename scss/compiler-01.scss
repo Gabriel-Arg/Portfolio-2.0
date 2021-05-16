@@ -206,23 +206,27 @@ body {
                     margin: 0;
                     font-family: $fuente-subtitulos;
                     color: $color-grisoscuro;
-                    font-size: 30px;
+                    font-size: 35px;
                     text-align: end;
+                    font-style: oblique;
                 }
                 h1 {
                     margin: 0;
-                    font-family: $fuente-subtitulos;
+                    font-family: $fuente-titulos;
                     color: $color-celesteoscuro;
                     font-size: 80px;
                     font-weight: bold;
                 }
-                p {
+                h3 {
                     font-weight: bold;
+                    font-style: oblique;
+                    font-size: 20px;
                     font-family: $fuente-subtitulos;
                     color: $color-grisoscuro;
                     text-align: end;
+                    cursor: pointer;
                 }
-                p:hover {
+                h3:hover {
                     color: $color-rojooscuro;
                 }
             }
@@ -248,10 +252,10 @@ body {
                     position: absolute;
                     top: 50px;
                     left: 25px;
-                    font-family: $fuente-titulos;
-                    color: $color-rojooscuro;
+                    font-family: $fuente-subtitulos;
+                    color: $color-grisoscuro;
+                    font-size: 27px;
                     font-weight: bold;
-                    font-size: 23px;
                     opacity: 0;
                     transition: all 0.8s;
                     transform: translateY(20px);
