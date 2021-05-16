@@ -187,6 +187,7 @@ body {
 
 .header-fluid {
     // border: 1px solid red;
+    height: 100vh;
 
     .header-container {
         // border: 1px solid blue;
@@ -205,7 +206,7 @@ body {
                 h4 {
                     margin: 0;
                     font-family: $fuente-subtitulos;
-                    color: $color-grisoscuro;
+                    color: $color-celesteoscuro;
                     font-size: 35px;
                     text-align: end;
                     font-style: oblique;
@@ -213,8 +214,8 @@ body {
                 h1 {
                     margin: 0 0 10px 0;
                     font-family: $fuente-titulos;
-                    color: $color-celesteoscuro;
-                    font-size: 80px;
+                    color: $color-grisoscuro;
+                    font-size: 110px;
                     font-weight: bold;
                 }
                 h3 {
@@ -296,7 +297,7 @@ body {
 // ---------------------------------------------------
 
 .skills-fluid {
-    margin: 100px 0px;
+    margin: 20px 0px;
     height: auto;
 
     .skills-row {

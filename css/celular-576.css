@@ -81,7 +81,8 @@
         font-size: 25px;
     }
     .header-fluid .header-container .header-row .header-title h1 {
-        font-size: 50px;
+        text-align: end;
+        font-size: 65px;
     }
 
     /* ------------------------------------------------------- */

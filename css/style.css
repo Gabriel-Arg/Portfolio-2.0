@@ -147,6 +147,9 @@ body {
   filter: drop-shadow(1px 1px 5px #ffffff);
 }
 
+.header-fluid {
+  height: 100vh;
+}
 .header-fluid .header-container .header-row {
   display: flex;
   flex-direction: row;
@@ -159,7 +162,7 @@ body {
 .header-fluid .header-container .header-row .header-title h4 {
   margin: 0;
   font-family: "Averia Serif Libre", cursive;
-  color: #212121;
+  color: #0d7377;
   font-size: 35px;
   text-align: end;
   font-style: oblique;
@@ -167,8 +170,8 @@ body {
 .header-fluid .header-container .header-row .header-title h1 {
   margin: 0 0 10px 0;
   font-family: "Montserrat", sans-serif;
-  color: #0d7377;
-  font-size: 80px;
+  color: #212121;
+  font-size: 110px;
   font-weight: bold;
 }
 .header-fluid .header-container .header-row .header-title h3 {
@@ -234,7 +237,7 @@ body {
 }
 
 .skills-fluid {
-  margin: 100px 0px;
+  margin: 20px 0px;
   height: auto;
 }
 .skills-fluid .skills-row {
