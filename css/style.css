@@ -95,4 +95,60 @@ body {
   box-shadow: 8px 8px 25px #c2c2c2, -8px -8px 25px #ffffff;
 }
 
+.modal-dialog {
+  margin: 30vh 15vw 0;
+  font-family: "Aldrich", sans-serif;
+  width: 250px;
+  height: auto;
+}
+.modal-dialog .modal-content {
+  background-color: #ffffff90;
+  filter: blur(0.2px);
+  border: 0.1px solid rgba(255, 255, 255, 0.665);
+  box-shadow: 3px 3px 30px #444444;
+}
+.modal-dialog .modal-content .foto-modal {
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  left: 20%;
+  top: -110px;
+}
+.modal-dialog .modal-content .modal-body .row {
+  /* border: 1px solid red; */
+  margin: 30px 0px;
+  justify-content: space-around;
+}
+.modal-dialog .modal-content .modal-body .row .social {
+  /* border: 1px solid blue; */
+  width: auto;
+}
+.modal-dialog .modal-content .modal-body .row .social .social-img {
+  width: 40px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.modal-dialog .modal-content .modal-body .row .social .social-img:hover {
+  width: 45px;
+  margin: 0px;
+  filter: drop-shadow(1px 1px 10px #00f7ff);
+}
+.modal-dialog .modal-content .modal-footer {
+  background-color: #41414151;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+}
+.modal-dialog .modal-content .modal-footer .social-whatsapp {
+  width: 55px;
+  transition: 0.4s;
+}
+.modal-dialog .modal-content .modal-footer .social-whatsapp:hover {
+  width: 65px;
+  margin: 0px;
+  filter: drop-shadow(1px 1px 10px #0d7377);
+}
+
 /*# sourceMappingURL=style.css.map */
