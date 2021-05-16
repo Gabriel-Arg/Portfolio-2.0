@@ -29,9 +29,11 @@
         /*----------------------------- */
         /*      EFECTO GLASS */
         /* ---------------------------- */
-        filter: blur(0.2px);
-        border: 0.1px solid rgba(255, 255, 255, 0.425);
-        box-shadow: 3px 3px 30px rgb(68, 68, 68);
+        background: rgba(255, 255, 255, 0.4);
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        backdrop-filter: blur(3.5px);
+        transition: 0.5s;
     }
     .menu-activo ul {
         display: flex;
@@ -43,7 +45,7 @@
     }
     .menu-activo li a {
         font-size: 20px;
-        color: white;
+        color: #212121;
     }
     .menu-contacto {
         height: 100%;
@@ -57,6 +59,10 @@
         top: -100vw;
     }
     #enlace {
-        color: white;
+        color: #212121;
+    }
+    #enlace:hover {
+        color: #ff0000;
+        filter: #ffffff;
     }
 }
