@@ -165,7 +165,7 @@ body {
   font-style: oblique;
 }
 .header-fluid .header-container .header-row .header-title h1 {
-  margin: 0;
+  margin: 0 0 10px 0;
   font-family: "Montserrat", sans-serif;
   color: #0d7377;
   font-size: 80px;
@@ -234,7 +234,32 @@ body {
 }
 
 .skills-fluid {
-  height: 100vh;
+  margin: 100px 0px;
+  height: auto;
+}
+.skills-fluid .skills-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills-fluid .skills-row .skills-title {
+  width: auto;
+}
+.skills-fluid .skills-row .skills-title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 150px;
+}
+.skills-fluid .skills-row .skills-info {
+  width: 50%;
+}
+.skills-fluid .skills-row .skills-info h4 {
+  font-family: "Averia Serif Libre", cursive;
+  font-weight: bold;
+}
+.skills-fluid .skills-row .skills-info p {
+  font-family: "Averia Serif Libre";
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -211,7 +211,7 @@ body {
                     font-style: oblique;
                 }
                 h1 {
-                    margin: 0;
+                    margin: 0 0 10px 0;
                     font-family: $fuente-titulos;
                     color: $color-celesteoscuro;
                     font-size: 80px;
@@ -296,5 +296,36 @@ body {
 // ---------------------------------------------------
 
 .skills-fluid {
-    height: 100vh;
+    margin: 100px 0px;
+    height: auto;
+
+    .skills-row {
+        // border: 1px solid red;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .skills-title {
+            width: auto;
+
+            h2 {
+                font-family: $fuente-titulos;
+                font-size: 150px;
+            }
+        }
+        .skills-info {
+            width: 50%;
+
+            h4 {
+                font-family: $fuente-subtitulos;
+                font-weight: bold;
+            }
+            p {
+                font-family: $fuente-parrafos;
+                text-align: justify;
+            }
+        }
+    }
 }
