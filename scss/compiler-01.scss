@@ -116,14 +116,17 @@ body {
     width: 250px;
     height: auto;
 
-    // ---------------------------------------
-    //     EFECTO GLASS
-    // ---------------------------------------
     .modal-content {
-        background-color: #ffffff90;
-        filter: blur(0.2px);
-        border: 0.1px solid rgba(255, 255, 255, 0.665);
-        box-shadow: 3px 3px 30px rgb(68, 68, 68);
+        box-shadow:  5px 5px 10px #505050, -5px -5px 10px #bebebe;
+
+        // ---------------------------------------
+        //     EFECTO GLASS
+        // ---------------------------------------
+        background: rgba(255, 255, 255, 0.6);
+        border: 1.5px solid rgba(255, 255, 255, 0.7);
+        border-radius: 10px;
+        backdrop-filter: blur(3.5px);
+        transition: 0.5s;
 
         .foto-modal {
             width: 150px;
@@ -150,13 +153,13 @@ body {
                 .social-img:hover {
                     width: 45px;
                     margin: 0px;
-                    filter: drop-shadow(1px 1px  10px #00f7ff);
+                    filter: $color-efectohover;
                 }
             }
         }
 
         .modal-footer {
-            background-color: #41414151;
+            background-color: rgba(255, 255, 255, 0.3);
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -170,7 +173,7 @@ body {
             .social-whatsapp:hover {
                 width: 65px;
                 margin: 0px;
-                filter: drop-shadow(1px 1px  10px #0d7377);
+                filter: $color-efectohover;
             }
         }
     }
