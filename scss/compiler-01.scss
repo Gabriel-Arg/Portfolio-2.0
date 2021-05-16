@@ -302,8 +302,8 @@ body {
 
     .skills-row {
         // border: 1px solid red;
-        margin-bottom: 10px;
-        border-bottom: 5px solid $color-grisoscuro;
+        padding-top: 30px;
+        border-top: 5px solid $color-grisoscuro;
 
         display: flex;
         flex-direction: row;
@@ -337,12 +337,78 @@ body {
 
 .skill-card-fluid {
     // border: 1px solid red;
+    margin-bottom: 100px;
     
     .skill-card-container {
 
         .skill-card-row {
-            border: 1px solid red;
-            height: 100px;
+            // border: 1px solid red;
+            height: auto;
+
+            display: flex;
+            flex-flow: wrap row;
+            justify-content: space-between;
+            align-items: center;
+
+            .skill-card {
+                // border: 1px solid green;
+                width: 20%;
+                height: auto;
+                padding: 15px 5px 5px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .skill-01 {
+                    // border: 1px solid orangered;
+                    width: 100%;
+                    height: 70%;
+
+                    .skill-renglon {
+                        // border: 1px solid blue;
+                        width: 100%;
+                        height: 50px;
+                        margin: 0 0 5px 0;
+
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        align-items: center;
+
+                        img {
+                            width: 40px;
+                        }
+                    }
+                }
+                .skill-02 {
+                    // border: 1px solid orangered;
+                    margin-top: 20px;
+                    padding: 0px 10px 10px;
+                    width: 100%;
+                    height: 30%;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    h5 {
+                        margin: 5px 0;
+                        font-family: $fuente-subtitulos;
+                        font-weight: bold;
+                    }
+
+                    p {
+                        margin: 0;
+                        font-family: $fuente-parrafos;
+                        text-align: justify;
+                        font-size: 15px;
+                        line-height: 1.2rem;
+                    }
+                }
+            }
         }
     }
 }

@@ -41,4 +41,9 @@
         width: auto;
     }
 
+    .skill-card-fluid .skill-card-container .skill-card-row .skill-card {
+        width: 48%;
+        margin: 20px 5px;
+    }
+
 }

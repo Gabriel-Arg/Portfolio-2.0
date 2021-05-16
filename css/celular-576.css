@@ -109,6 +109,20 @@
         text-align: center;
     }
 
+    /* ------------------------------------------------------- */
+    /* -----SKILLS TARJETAS----- */
+    /* ------------------------------------------------------- */
 
+    .skill-card-fluid .skill-card-container .skill-card-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill-card-fluid .skill-card-container .skill-card-row .skill-card {
+        width: 80%;
+        height: auto;
+        margin: 20px 0px;
+    }
 
 }
