@@ -241,6 +241,8 @@ body {
   height: auto;
 }
 .skills-fluid .skills-row {
+  margin-bottom: 10px;
+  border-bottom: 5px solid #212121;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -263,6 +265,11 @@ body {
 .skills-fluid .skills-row .skills-info p {
   font-family: "Averia Serif Libre";
   text-align: justify;
+}
+
+.skill-card-fluid .skill-card-container .skill-card-row {
+  border: 1px solid red;
+  height: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

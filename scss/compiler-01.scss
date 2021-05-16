@@ -302,6 +302,8 @@ body {
 
     .skills-row {
         // border: 1px solid red;
+        margin-bottom: 10px;
+        border-bottom: 5px solid $color-grisoscuro;
 
         display: flex;
         flex-direction: row;
@@ -316,6 +318,7 @@ body {
                 font-size: 150px;
             }
         }
+
         .skills-info {
             width: 50%;
 
@@ -323,10 +326,23 @@ body {
                 font-family: $fuente-subtitulos;
                 font-weight: bold;
             }
+
             p {
                 font-family: $fuente-parrafos;
                 text-align: justify;
             }
+        }
+    }
+}
+
+.skill-card-fluid {
+    // border: 1px solid red;
+    
+    .skill-card-container {
+
+        .skill-card-row {
+            border: 1px solid red;
+            height: 100px;
         }
     }
 }
