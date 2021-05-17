@@ -279,7 +279,7 @@ body {
   align-items: center;
 }
 .skill-card-fluid .skill-card-container .skill-card-row .skill-card {
-  border-bottom: 5px solid #212121;
+  border-bottom: 2px solid #212121;
   width: 20%;
   height: auto;
   padding: 15px 5px 5px;
@@ -346,10 +346,30 @@ body {
   height: 200px;
 }
 .proyect-fluid .proyect-container .proyect-row {
-  border: 1px solid red;
   padding-top: 30px;
   border-top: 5px solid #212121;
-  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.proyect-fluid .proyect-container .proyect-row .proyect-title {
+  width: auto;
+}
+.proyect-fluid .proyect-container .proyect-row .proyect-title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+}
+.proyect-fluid .proyect-container .proyect-row .proyect-info {
+  width: 50%;
+}
+.proyect-fluid .proyect-container .proyect-row .proyect-info h4 {
+  font-family: "Averia Serif Libre", cursive;
+  font-weight: bold;
+}
+.proyect-fluid .proyect-container .proyect-row .proyect-info p {
+  font-family: "Averia Serif Libre";
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */

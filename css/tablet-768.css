@@ -46,4 +46,11 @@
         margin: 20px 5px;
     }
 
+    /* ------------------------------------------------------- */
+    /* -----PROYECTOS----- */
+    /* ------------------------------------------------------- */
+
+    .proyect-fluid .proyect-container .proyect-row .proyect-info {
+        width: auto;
+    }
 }

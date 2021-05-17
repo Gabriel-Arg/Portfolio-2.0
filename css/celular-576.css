@@ -125,4 +125,16 @@
         margin: 20px 0px;
     }
 
+
+
+    .proyect-fluid .proyect-container .proyect-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .proyect-fluid .proyect-container .proyect-row .proyect-title h2 {
+        font-size: 3.2rem;
+    }
+
 }
