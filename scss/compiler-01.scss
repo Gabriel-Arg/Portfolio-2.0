@@ -352,6 +352,7 @@ body {
 
             .skill-card {
                 // border: 1px solid green;
+                border-bottom: 5px solid $color-grisoscuro;
                 width: 20%;
                 height: auto;
                 padding: 15px 5px 5px;
@@ -379,6 +380,12 @@ body {
 
                         img {
                             width: 40px;
+                            cursor: pointer;
+                        }
+                        img:hover {
+                            border-radius: 4.5px;
+                            background: #e0e0e0;
+                            box-shadow:  5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
                         }
                     }
                 }

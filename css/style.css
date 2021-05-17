@@ -278,6 +278,7 @@ body {
   align-items: center;
 }
 .skill-card-fluid .skill-card-container .skill-card-row .skill-card {
+  border-bottom: 5px solid #212121;
   width: 20%;
   height: auto;
   padding: 15px 5px 5px;
@@ -301,6 +302,12 @@ body {
 }
 .skill-card-fluid .skill-card-container .skill-card-row .skill-card .skill-01 .skill-renglon img {
   width: 40px;
+  cursor: pointer;
+}
+.skill-card-fluid .skill-card-container .skill-card-row .skill-card .skill-01 .skill-renglon img:hover {
+  border-radius: 4.5px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
 }
 .skill-card-fluid .skill-card-container .skill-card-row .skill-card .skill-02 {
   margin-top: 20px;
