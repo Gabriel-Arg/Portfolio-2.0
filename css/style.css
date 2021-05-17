@@ -310,11 +310,20 @@ body {
   background: #e0e0e0;
   box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
 }
+.skill-card-fluid .skill-card-container .skill-card-row .skill-card .skill-01 .skill-renglon p {
+  font-family: "Averia Serif Libre";
+  line-height: 1.2rem;
+  text-align: justify;
+}
+.skill-card-fluid .skill-card-container .skill-card-row .skill-card .skill-01 .skill-renglon-4 p {
+  margin-bottom: 5px;
+  font-family: "Averia Serif Libre";
+}
 .skill-card-fluid .skill-card-container .skill-card-row .skill-card .skill-02 {
   margin-top: 20px;
   padding: 0px 10px 10px;
   width: 100%;
-  height: 30%;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -331,6 +340,16 @@ body {
   text-align: justify;
   font-size: 15px;
   line-height: 1.2rem;
+}
+
+.proyect-fluid .proyect-container {
+  height: 200px;
+}
+.proyect-fluid .proyect-container .proyect-row {
+  border: 1px solid red;
+  padding-top: 30px;
+  border-top: 5px solid #212121;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

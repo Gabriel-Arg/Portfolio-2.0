@@ -389,6 +389,16 @@ body {
                             background: #e0e0e0;
                             box-shadow:  5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
                         }
+
+                        p {
+                            font-family: $fuente-parrafos;
+                            line-height: 1.2rem;
+                            text-align: justify;
+                        }
+                    }
+                    .skill-renglon-4 p {
+                        margin-bottom: 5px;
+                        font-family: $fuente-parrafos;
                     }
                 }
                 .skill-02 {
@@ -396,7 +406,7 @@ body {
                     margin-top: 20px;
                     padding: 0px 10px 10px;
                     width: 100%;
-                    height: 30%;
+                    height: 150px;
 
                     display: flex;
                     flex-direction: column;
@@ -418,6 +428,24 @@ body {
                     }
                 }
             }
+        }
+    }
+}
+
+// ---------------------------------------------------
+//          PROYECTOS
+// ---------------------------------------------------
+
+.proyect-fluid {
+    
+    .proyect-container {
+        height: 200px;
+
+        .proyect-row {
+            border: 1px solid red;
+            padding-top: 30px;
+            border-top: 5px solid $color-grisoscuro;
+            height: 100%;
         }
     }
 }
