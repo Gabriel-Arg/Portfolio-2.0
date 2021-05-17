@@ -342,6 +342,9 @@ body {
   line-height: 1.2rem;
 }
 
+.proyect-fluid {
+  margin-bottom: 100px;
+}
 .proyect-fluid .proyect-container {
   height: 200px;
 }
