@@ -26,6 +26,7 @@ body {
 }
 
 .menu-container-fluid {
+  background-color: #e0e0e0;
   margin-top: 20px;
   height: 50px;
   position: sticky;
