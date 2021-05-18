@@ -67,17 +67,19 @@
     .proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big .contenedor-foto {
         margin-bottom: 40px;
         width: 100%;
-        height: 250px;
+        height: 1800px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: relative;
     }
-
     .proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big .contenedor-foto .span-01 {
-        font-size: 1.5rem;
-
+        font-size: 2.5rem;
+    }
+    .proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-details p {
+        padding: 0;
     }
 
 }

@@ -383,6 +383,7 @@ body {
 }
 .proyect-card-fluid .proyect-card-container {
   height: auto;
+  width: auto;
 }
 .proyect-card-fluid .proyect-card-container .proyect-card-row {
   height: auto;
@@ -402,7 +403,7 @@ body {
   align-items: center;
 }
 .proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big .contenedor-foto {
-  width: 60%;
+  width: 650px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -413,10 +414,10 @@ body {
   color: #eeeeee;
   font-family: "Averia Serif Libre", cursive;
   position: absolute;
-  top: 20px;
-  left: 30px;
+  top: 30px;
+  left: 40px;
   z-index: 1;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bold;
   opacity: 0;
   transition: all 0.8s;
@@ -478,8 +479,31 @@ body {
   filter: drop-shadow(0 7px 15px rgba(0, 0, 0, 0.4));
 }
 .proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-details {
-  border: 1px solid blue;
-  height: 20%;
+  margin: 20px 0 50px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-details p {
+  padding: 0 10%;
+  color: #212121;
+  font-family: "Averia Serif Libre";
+  text-align: justify;
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-details .btn-ver-contenedor {
+  margin-top: 10px;
+  display: flex;
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-details .btn-ver {
+  margin: 0 30px;
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

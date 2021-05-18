@@ -488,6 +488,7 @@ body {
     .proyect-card-container {
         // border: 1px solid rgb(128, 128, 128);
         height: auto;
+        width: auto;
 
         .proyect-card-row {
             // border: 1px solid red;
@@ -516,7 +517,7 @@ body {
                 // ------------------------------------------
                 .contenedor-foto {
                     // border: 1px solid red;
-                    width: 60%;
+                    width: 650px;
                     
                     display: flex;
                     flex-direction: column;
@@ -531,11 +532,11 @@ body {
                         color: $color-blanco;
                         font-family: $fuente-subtitulos;
                         position: absolute;
-                        top: 20px;
-                        left: 30px;
+                        top: 30px;
+                        left: 40px;
                         z-index: 1;
 
-                        font-size: 35px;
+                        font-size: 45px;
                         font-weight: bold;
                         opacity: 0;
                         transition: all 0.8s;
@@ -612,8 +613,38 @@ body {
             }
 
             .proyect-card-details {
-                border: 1px solid blue;
-                height: 20%;
+                // border: 1px solid blue;
+                margin: 20px 0 50px;
+                width: 100%;
+                height: auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    padding: 0 10%;
+                    color: $color-grisoscuro;
+                    font-family: $fuente-parrafos;
+                    text-align: justify;
+                }
+
+                .btn-ver-contenedor {
+                    // border: 1px solid blue;
+                    margin-top: 10px;
+                    display: flex;
+                }
+                .btn-ver {
+                    // border: 1px solid red;
+                    margin: 0 30px;
+                    padding: 8px 10px;
+                    cursor: pointer;
+
+                    border-radius: 8px;
+                    background: #e0e0e0;
+                    box-shadow:  5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+                }
             }
         }
     }
