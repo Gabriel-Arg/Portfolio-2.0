@@ -149,7 +149,6 @@ body {
 }
 
 .header-fluid {
-  /* border: 1px solid red; */
   height: 800px;
   display: flex;
   flex-direction: row;
@@ -161,6 +160,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .header-fluid .header-container .header-row .header-title {
   width: auto;
