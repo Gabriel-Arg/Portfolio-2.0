@@ -149,6 +149,7 @@ body {
 }
 
 .header-fluid {
+  border: 1px solid red;
   height: 800px;
   display: flex;
   flex-direction: row;

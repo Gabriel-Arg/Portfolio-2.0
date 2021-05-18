@@ -74,6 +74,9 @@
     /*     HEADER */
     /* ---------------------------- */
 
+    .header-fluid {
+        height: 100vh;
+    }
     .header-fluid .header-container .header-row {
         display: flex;
         flex-direction: column;
