@@ -3,6 +3,9 @@
 /* -------------------------------------------------------- */
 
 @media screen and (max-width: 576px) {
+    .header-fluid {
+        height: 100vh;
+    }
     .menu-container-fluid, .menu-container, .menu-row {
         height: auto;
     }
@@ -124,8 +127,10 @@
         height: auto;
         margin: 20px 0px;
     }
-
-
+    #skill-card3 {
+        /* border: 1px solid orangered; */
+        margin: 150px 0px 80px;
+    }
 
     .proyect-fluid .proyect-container .proyect-row {
         flex-direction: column;

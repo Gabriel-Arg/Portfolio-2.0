@@ -3,6 +3,9 @@
 /* -------------------------------------------------------- */
 
 @media screen and (max-width: 768px) {
+    .header-fluid {
+        height: 100vh;
+    }
 
     .header-fluid .header-container .header-row {
         display: flex;
@@ -43,7 +46,7 @@
 
     .skill-card-fluid .skill-card-container .skill-card-row .skill-card {
         width: 48%;
-        margin: 20px 5px;
+        margin: 10px 5px 80px;
     }
 
     /* ------------------------------------------------------- */

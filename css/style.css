@@ -149,7 +149,11 @@ body {
 }
 
 .header-fluid {
-  height: 100vh;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .header-fluid .header-container .header-row {
   display: flex;
@@ -495,10 +499,14 @@ body {
 }
 .proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-details .btn-ver-contenedor {
   margin-top: 10px;
+  width: 100%;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-details .btn-ver {
-  margin: 0 25px;
+  margin: 0;
   padding: 8px 12px;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
