@@ -555,4 +555,34 @@ body {
   opacity: 1;
 }
 
+#proyect-foto-3 {
+  background: url(../img/proyect3-web.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#proyect-foto-3:hover {
+  background-size: 800px;
+  background-position: right top;
+  filter: grayscale(100%) blur(1.5px) contrast(30%);
+}
+
+#proyect-foto-3::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  bottom: 8px;
+  right: 8px;
+  border-radius: 15px;
+  border: 1px solid #f6f6f6;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+#proyect-foto-3:hover::before {
+  opacity: 1;
+}
+
 /*# sourceMappingURL=style.css.map */
