@@ -525,4 +525,34 @@ body {
   box-shadow: 8px 8px 25px #c2c2c2, -8px -8px 25px #ffffff;
 }
 
+#proyect-foto-2 {
+  background: url(../img/modal-foto.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#proyect-foto-2:hover {
+  background-size: 800px;
+  background-position: right top;
+  filter: grayscale(100%) blur(1.5px) contrast(30%);
+}
+
+#proyect-foto-2::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  bottom: 8px;
+  right: 8px;
+  border-radius: 15px;
+  border: 1px solid #f6f6f6;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+#proyect-foto-2:hover::before {
+  opacity: 1;
+}
+
 /*# sourceMappingURL=style.css.map */
