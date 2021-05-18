@@ -375,4 +375,86 @@ body {
   text-align: justify;
 }
 
+.proyect-card-fluid {
+  height: 100vh;
+}
+.proyect-card-fluid .proyect-card-container {
+  height: 100%;
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row {
+  border: 1px solid red;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big {
+  border: 1px solid #1212ff;
+  height: 70%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big .proyect-foto {
+  margin-top: 20px;
+  width: 60%;
+  height: 320px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+  transition: background 0.8s;
+  background: url(../img/proyect-01.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big .proyect-foto .span-01 {
+  position: absolute;
+  top: 25px;
+  left: 55px;
+  font-family: "Averia Serif Libre", cursive;
+  color: #eeeeee;
+  font-size: 27px;
+  font-weight: bold;
+  opacity: 0;
+  transition: all 0.8s;
+  transform: translateY(20px);
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big .proyect-foto:hover .span-01 {
+  opacity: 1;
+  transform: translateY(0);
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big .proyect-foto:hover {
+  background-size: 800px;
+  background-position: left top;
+  filter: grayscale(100%);
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big .proyect-foto::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  bottom: 8px;
+  right: 8px;
+  border-radius: 15px;
+  border: 1px solid #f6f6f6;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big .proyect-foto:hover::before {
+  opacity: 1;
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big #proyect-mobile {
+  width: 200px;
+  filter: drop-shadow(0 7px 15px rgba(0, 0, 0, 0.4));
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-details {
+  border: 1px solid blue;
+  height: 20%;
+}
+
 /*# sourceMappingURL=style.css.map */
