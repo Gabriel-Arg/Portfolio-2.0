@@ -50,7 +50,34 @@
     /* -----PROYECTOS----- */
     /* ------------------------------------------------------- */
 
+    .proyect-fluid {
+        margin-bottom: 20px;
+    }
     .proyect-fluid .proyect-container .proyect-row .proyect-info {
         width: auto;
     }
+    .proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big {
+        padding: 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big .contenedor-foto {
+        margin-bottom: 40px;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big .contenedor-foto .span-01 {
+        font-size: 1.5rem;
+
+    }
+
 }
