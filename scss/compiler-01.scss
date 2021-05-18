@@ -544,11 +544,11 @@ body {
                         color: $color-blanco;
                         font-family: $fuente-subtitulos;
                         position: absolute;
-                        top: 30px;
-                        left: 40px;
+                        top: 20px;
+                        left: 30px;
                         z-index: 1;
 
-                        font-size: 45px;
+                        font-size: 30px;
                         font-weight: bold;
                         opacity: 0;
                         transition: all 0.8s;
@@ -559,8 +559,8 @@ body {
                         color: $color-blanco;
                         font-family: $fuente-parrafos;
                         position: absolute;
-                        bottom: 40px;
-                        right: 40px;
+                        bottom: 10px;
+                        right: 30px;
                         z-index: 1;
 
                         opacity: 0;
@@ -683,7 +683,7 @@ body {
 //                 PROYECTO 2
 // ---------------------------------------------------------------
 #proyect-foto-2 {
-    background: url(../img/modal-foto.jpg);
+    background: url(../img/proyecto2-web.png);
     background-size: cover;
     background-position: center;
     position: relative;

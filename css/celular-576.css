@@ -156,12 +156,12 @@
     }
 
     .proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big .contenedor-foto .span-01 {
-        top: 25px;
-        left: 40px;
+        top: 10px;
+        left: 20px;
         font-size: 25px;
     }
     .proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-big .contenedor-foto .span-02 {
-        bottom: 40px;
+        bottom: 10px;
         right: 30px;
         font-size: 14px;
     }
