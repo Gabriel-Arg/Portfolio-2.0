@@ -637,13 +637,25 @@ body {
                 }
                 .btn-ver {
                     // border: 1px solid red;
-                    margin: 0 30px;
-                    padding: 8px 10px;
+                    margin: 0 25px;
+                    padding: 8px 12px;
                     cursor: pointer;
+                    font-family: $fuente-titulos;
+                    font-size: 14px;
 
                     border-radius: 8px;
                     background: #e0e0e0;
                     box-shadow:  5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+
+                    a {
+                        color: $color-grisoscuro;
+                        text-decoration: none;
+                    }
+                }
+                .btn-ver:hover {
+                    background: linear-gradient(145deg, #ffffff, #bababa);
+                    box-shadow: 8px 8px 25px #c2c2c2,
+                    -8px -8px 25px #ffffff;
                 }
             }
         }

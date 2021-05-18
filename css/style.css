@@ -498,12 +498,22 @@ body {
   display: flex;
 }
 .proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-details .btn-ver {
-  margin: 0 30px;
-  padding: 8px 10px;
+  margin: 0 25px;
+  padding: 8px 12px;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
   border-radius: 8px;
   background: #e0e0e0;
   box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-details .btn-ver a {
+  color: #212121;
+  text-decoration: none;
+}
+.proyect-card-fluid .proyect-card-container .proyect-card-row .proyect-card-details .btn-ver:hover {
+  background: linear-gradient(145deg, #ffffff, #bababa);
+  box-shadow: 8px 8px 25px #c2c2c2, -8px -8px 25px #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
