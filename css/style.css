@@ -697,6 +697,7 @@ body {
   background-color: rgba(172, 255, 47, 0.549);
   border: 1px solid green;
   width: auto;
+  padding: 0;
 }
 .block-fluid .block-container .block-row1 .block-title h2 {
   font-family: "Montserrat", sans-serif;
@@ -706,6 +707,7 @@ body {
   background-color: rgba(172, 255, 47, 0.549);
   border: 1px solid green;
   width: 50%;
+  padding: 0;
 }
 .block-fluid .block-container .block-row1 .block-coment h4 {
   font-family: "Averia Serif Libre", cursive;

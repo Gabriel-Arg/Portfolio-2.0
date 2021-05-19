@@ -43,13 +43,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
     }
     .menu-activo li {
         margin: 20px;
+        width: 100%;
     }
     .menu-activo li a {
         font-size: 20px;
         color: #212121;
+        padding: 20px 100px;
     }
     .menu-contacto {
         height: 100%;
@@ -60,10 +65,11 @@
         color: white;
     }
     .menu-oculto {
-        top: -100vw;
+        top: -120vw;
     }
     #enlace {
         color: #212121;
+        width: 100%;
     }
     #enlace:hover {
         color: #ff0000;
@@ -171,6 +177,14 @@
         filter: grayscale(100%) blur(1.5px) contrast(30%);
     }
 
+    /* ------------------------------------------------------- */
+    /* -----CODE BLOCK----- */
+    /* ------------------------------------------------------- */
 
+    .block-fluid .block-container .block-row1 .block-title h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 3rem;
+        text-align: center;
+    }
 
 }
