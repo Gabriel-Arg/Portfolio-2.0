@@ -838,11 +838,48 @@ body {
     height: auto;
     
     .block-container {
-        border: 1px solid gray;
+        border: 1px solid rgb(255, 0, 0);
         height: auto;
 
-        .block-row {
-            border: 1px solid red;
+        .block-row1 {
+            border: 1px solid blue;
+            border-top: 5px solid $color-grisoscuro;
+            margin: 20px 0px;
+            padding-top: 40px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .block-title {
+                background-color: rgba(172, 255, 47, 0.549);
+                border: 1px solid green;
+                width: auto;
+
+                h2 {
+                    font-family: $fuente-titulos;
+                    font-size: 80px;
+                }
+            }
+            .block-coment {
+                background-color: rgba(172, 255, 47, 0.549);
+                border: 1px solid green;
+                width: 50%;
+
+                h4 {
+                    font-family: $fuente-subtitulos;
+                    font-weight: bold;
+                }
+                p {
+                    font-family: $fuente-parrafos;
+                    text-align: justify;
+                }
+            }
+        }
+        .block-row2 {
+            border: 1px solid blue;
+            margin: 0px 0px 20px;
         }
     }
 }

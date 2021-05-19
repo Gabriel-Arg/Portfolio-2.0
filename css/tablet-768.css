@@ -86,4 +86,21 @@
         padding: 0;
     }
 
+    /* ---------------------------------------------- */
+    /*       CODE BLOCK */
+    /* ---------------------------------------------- */
+
+    .block-fluid .block-container .block-row1 .block-title {
+        width: 100%;
+    }
+    .block-fluid .block-container .block-row1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .block-fluid .block-container .block-row1 .block-coment {
+        width: 100%;
+        margin-top: 20px;
+    }
+
 }

@@ -680,11 +680,44 @@ body {
   height: auto;
 }
 .block-fluid .block-container {
-  border: 1px solid gray;
+  border: 1px solid red;
   height: auto;
 }
-.block-fluid .block-container .block-row {
-  border: 1px solid red;
+.block-fluid .block-container .block-row1 {
+  border: 1px solid blue;
+  border-top: 5px solid #212121;
+  margin: 20px 0px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.block-fluid .block-container .block-row1 .block-title {
+  background-color: rgba(172, 255, 47, 0.549);
+  border: 1px solid green;
+  width: auto;
+}
+.block-fluid .block-container .block-row1 .block-title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+}
+.block-fluid .block-container .block-row1 .block-coment {
+  background-color: rgba(172, 255, 47, 0.549);
+  border: 1px solid green;
+  width: 50%;
+}
+.block-fluid .block-container .block-row1 .block-coment h4 {
+  font-family: "Averia Serif Libre", cursive;
+  font-weight: bold;
+}
+.block-fluid .block-container .block-row1 .block-coment p {
+  font-family: "Averia Serif Libre";
+  text-align: justify;
+}
+.block-fluid .block-container .block-row2 {
+  border: 1px solid blue;
+  margin: 0px 0px 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
