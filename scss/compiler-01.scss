@@ -828,3 +828,22 @@ body {
 #proyect-foto-6:hover::before {
     opacity: 1;
 }
+
+// ----------------------------------------------------------------
+//                 BLOCK CODE
+// ----------------------------------------------------------------
+
+.block-fluid {
+    border: 1px solid black;
+    height: auto;
+    
+    .block-container {
+        border: 1px solid gray;
+        height: auto;
+
+        .block-row {
+            border: 1px solid red;
+        }
+    }
+}
+

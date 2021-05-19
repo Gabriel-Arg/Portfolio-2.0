@@ -675,4 +675,16 @@ body {
   opacity: 1;
 }
 
+.block-fluid {
+  border: 1px solid black;
+  height: auto;
+}
+.block-fluid .block-container {
+  border: 1px solid gray;
+  height: auto;
+}
+.block-fluid .block-container .block-row {
+  border: 1px solid red;
+}
+
 /*# sourceMappingURL=style.css.map */
