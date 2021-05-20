@@ -719,44 +719,21 @@ body {
 }
 .block-fluid .block-container .block-row2 {
   border: 1px solid blue;
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+  justify-content: center;
 }
 .block-fluid .block-container .block-row2 .block-card {
   border: 1px solid orangered;
-  width: 33%;
+  background-color: rgba(255, 166, 0, 0.309);
+  padding: 0;
+  width: 350px;
+  height: 280px;
 }
 .block-fluid .block-container .block-row2 .block-card #block-a,
 .block-fluid .block-container .block-row2 .block-card #block-b {
   padding: 0;
-}
-.block-fluid .block-container .block-row2 .block-card #block-a #codeblock-1,
-.block-fluid .block-container .block-row2 .block-card #block-b #codeblock-1 {
-  background: url(../img/modal-foto.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-.block-fluid .block-container .block-row2 .block-card #block-a #codeblock-1:hover,
-.block-fluid .block-container .block-row2 .block-card #block-b #codeblock-1:hover {
-  background-size: 800px;
-  background-position: right top;
-  filter: grayscale(100%) blur(1.5px) contrast(30%);
-}
-.block-fluid .block-container .block-row2 .block-card #block-a #codeblock-1::before,
-.block-fluid .block-container .block-row2 .block-card #block-b #codeblock-1::before {
-  content: "";
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  bottom: 8px;
-  right: 8px;
-  border-radius: 15px;
-  border: 1px solid #f6f6f6;
-  opacity: 0;
-  transition: opacity 0.8s;
-}
-.block-fluid .block-container .block-row2 .block-card #block-a #codeblock-1:hover::before,
-.block-fluid .block-container .block-row2 .block-card #block-b #codeblock-1:hover::before {
-  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
