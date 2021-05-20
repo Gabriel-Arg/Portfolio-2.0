@@ -879,10 +879,61 @@ body {
                 }
             }
         }
+
         .block-row2 {
             border: 1px solid blue;
-            margin: 0px 0px 20px;
+
+            .block-card {
+                border: 1px solid orangered;
+                width: 33%;
+
+                #block-a,
+                #block-b {
+                    padding: 0;
+
+                    // ----------------------------------------------------------------
+                    //                 BLOCK - CARDS
+                    // ---------------------------------------------------------------
+                    #codeblock-1 {
+                        background: url(../img/modal-foto.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        position: relative;
+                    }
+
+                    #codeblock-1:hover {
+                        background-size: 800px;
+                        background-position: right top;
+                        filter: grayscale(100%) blur(1.5px) contrast(30%);
+                    }
+
+                    #codeblock-1::before {
+                        content: "";
+                        position: absolute;
+                        top: 8px;
+                        left: 8px;
+                        bottom: 8px;
+                        right: 8px;
+                        border-radius: 15px;
+                        border: 1px solid #f6f6f6;
+                        opacity: 0;
+                        transition: opacity 0.8s;
+                    }
+
+                    #codeblock-1:hover::before {
+                        opacity: 1;
+                    }
+
+                }
+            }
         }
+
+
+
+
+
+
     }
 }
+
 
