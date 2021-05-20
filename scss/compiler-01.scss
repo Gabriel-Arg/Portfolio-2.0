@@ -830,19 +830,19 @@ body {
 }
 
 // ----------------------------------------------------------------
-//                 BLOCK CODE
+//                 BLOCK CODE TITULOS
 // ----------------------------------------------------------------
 
 .block-fluid {
-    border: 1px solid black;
+    // border: 1px solid black;
     height: auto;
     
     .block-container {
-        border: 1px solid rgb(255, 0, 0);
+        // border: 1px solid rgb(255, 0, 0);
         height: auto;
 
         .block-row1 {
-            border: 1px solid blue;
+            // border: 1px solid blue;
             border-top: 5px solid $color-grisoscuro;
             margin: 20px 0px;
             padding-top: 40px;
@@ -853,8 +853,8 @@ body {
             align-items: center;
 
             .block-title {
-                background-color: rgba(172, 255, 47, 0.549);
-                border: 1px solid green;
+                // background-color: rgba(172, 255, 47, 0.549);
+                // border: 1px solid green;
                 width: auto;
                 padding: 0;
 
@@ -864,8 +864,8 @@ body {
                 }
             }
             .block-coment {
-                background-color: rgba(172, 255, 47, 0.549);
-                border: 1px solid green;
+                // background-color: rgba(172, 255, 47, 0.549);
+                // border: 1px solid green;
                 width: 50%;
                 padding: 0;
 
@@ -880,8 +880,12 @@ body {
             }
         }
 
+        // --------------------------------------------------
+        //        CODE BLOCK GALERIA DE IMAGENES
+        // --------------------------------------------------
+
         .block-row2 {
-            border: 1px solid blue;
+            // border: 1px solid blue;
 
             display: flex;
             flex-flow: wrap row;
@@ -889,26 +893,192 @@ body {
             justify-content: center;
 
             .block-card {
-                border: 1px solid orangered;
-                background-color: rgba(255, 166, 0, 0.309);
+                // border: 1px solid orangered;
+                // background-color: rgba(255, 166, 0, 0.309);
                 padding: 0;
 
                 width: 350px;
                 height: 280px;
 
-                #block-a,
-                #block-b {
-                    padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+
+                // ------------------------------------------
+                //    EFECTO HOVER EN LOS SPAN
+                // ------------------------------------------
+                span {
+                    background-color: $color-celesteoscuro;
+                    color: $color-blanco;
+                    font-family: $fuente-subtitulos;
+                    width: 100px;
+                    border: 1px solid $color-blanco;
+                    border-radius: 5px;
+                    position: absolute;
+                    bottom: 30px;
+                    left: 37%;
+                    z-index: 1;
+
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: bold;
+                    opacity: 0;
+                    transition: all 0.8s;
+                    transform: translateY(20px);
+
+                    display: flex;
+
+                    a {
+                        color: $color-blanco;
+                        text-decoration: none;
+                        width: 100%;
+                    }
                 }
             }
+
+            .block-card:hover span, .span-title { 
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+
+            // ------------------------------------------
+            //    ESTILOS ESPECIALES PARA CADA BLOCK
+            // ------------------------------------------
+            .block-foto {
+                // border: 1px solid red;
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+                // border-radius: 15px;
+                box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+                transition: background 0.8s;
+
+                background: url(../img/block01.png);
+                background-size: cover;
+                background-position: center;
+                position: relative;
+            }
+            .block-foto2 {
+                // border: 1px solid red;
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+                // border-radius: 15px;
+                box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+                transition: background 0.8s;
+
+                background: url(../img/block02.png);
+                background-size: cover;
+                background-position: center;
+                position: relative;
+            }
+            .block-foto3 {
+                // border: 1px solid red;
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+                // border-radius: 15px;
+                box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+                transition: background 0.8s;
+
+                background: url(../img/block03.png);
+                background-size: cover;
+                background-position: center;
+                position: relative;
+            }
+            .block-foto4 {
+                // border: 1px solid red;
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+                // border-radius: 15px;
+                box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+                transition: background 0.8s;
+
+                background: url(../img/block04.png);
+                background-size: cover;
+                background-position: center;
+                position: relative;
+            }
+            .block-foto5 {
+                // border: 1px solid red;
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+                // border-radius: 15px;
+                box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+                transition: background 0.8s;
+
+                background: url(../img/block05.png);
+                background-size: cover;
+                background-position: center;
+                position: relative;
+            }
+            .block-foto6 {
+                // border: 1px solid red;
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+                // border-radius: 15px;
+                box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+                transition: background 0.8s;
+
+                background: url(../img/block06.png);
+                background-size: cover;
+                background-position: center;
+                position: relative;
+            }
+
+            // ------------------------------------------------------
+            //         EFECTO HOVER Y BEFORE PARA TODAS LOS BLOCK
+            // ------------------------------------------------------
+
+            .block-foto:hover,
+            .block-foto2:hover,
+            .block-foto3:hover,
+            .block-foto4:hover,
+            .block-foto5:hover,
+            .block-foto6:hover {
+                background-size: 700px;
+                background-position: left top;
+                filter: grayscale(100%) blur(1.5px) contrast(30%);
+            }
+
+            .block-foto::before,
+            .block-foto2::before,
+            .block-foto3::before,
+            .block-foto4::before,
+            .block-foto5::before,
+            .block-foto6::before {
+                content: "";
+                position: absolute;
+                top: 8px;
+                left: 8px;
+                bottom: 8px;
+                right: 8px;
+                border-radius: 15px;
+                border: 1px solid #f6f6f6;
+                opacity: 0;
+                transition: opacity 0.8s;
+            }
+
+            .block-foto:hover::before,
+            .block-foto2:hover::before,
+            .block-foto3:hover::before,
+            .block-foto4:hover::before,
+            .block-foto5:hover::before,
+            .block-foto5:hover::before {
+                opacity: 1;
+            }
+
+
         }
-
-
-
-
-
 
     }
 }
+
 
 
