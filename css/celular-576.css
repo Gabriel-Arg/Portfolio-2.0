@@ -187,4 +187,19 @@
         text-align: center;
     }
 
+    /* -------------------------------------------------------- */
+    /*              FOOTER */
+    /* ------------------------------------------------------- */
+
+    .footer-fluid {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+    .footer-fluid .footer-container {
+        height: 100%;
+    }
+    .footer-fluid .footer-container .footer-row .footer-foto {
+        width: 150px;
+    }
+
 }

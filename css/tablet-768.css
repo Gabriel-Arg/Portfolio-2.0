@@ -115,4 +115,20 @@
         height: 280px;
     }
 
+    /* ------------------------------------------------------ */
+    /*          FOOTER */
+    /* ------------------------------------------------------ */
+
+    .footer-fluid .footer-container .footer-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-fluid .footer-container .footer-row .footer-saludo {
+        width: 100%;
+    }
+    .footer-fluid .footer-container .footer-row .footer-foto img {
+        margin-top: 50px;
+    }
+
 }
